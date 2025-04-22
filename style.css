@@ -1,0 +1,89 @@
+body {
+    background-color: #ff9900;
+    color: #151817;
+    text-align: center;
+    background-size: cover;
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%2Fimages%3Fk%3Djob%2Bbackground&psig=AOvVaw0xDm1kpbFhMdtTO0KrRcqg&ust=1745318440453000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPjLuYj46IwDFQAAAAAdAAAAABAE');
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+.navbar {
+    background: #000000;
+    text-align: center;
+    line-height: 3em;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px 0px rgba(255, 0, 0, .5);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-stretch: expanded;
+    padding: 15px 20px;
+    align-items: center;
+}
+h2{
+    color: #fff;
+}
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+}
+.navbar a:hover{
+    background-color: #ffffff;
+}
+.navbar a:active{
+    background-color: #ffffff;
+    color: #ddffff;
+}
+div.navbar{
+    color: #fff;
+}
+form{
+    color: #ddffff;
+}
+#loginform{
+    background-color: #99eeff;
+    color: aliceblue;
+    width: 35vh;
+    padding: 2em;
+    margin: 10vh auto;
+    border-radius: 10px;
+    box-shadow:0px 0px 8px 0px rgba(0,254)
+}
+#loginform input{
+    margin: .5em;
+    padding: .5em;
+}
+#loginform inout[type='submit']{
+    width: 98%;
+    background-color: #00cc33;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: .8em;
+   
+}
+#loginform inout[type='submit']:hover{
+    background-color: #20ca53;
+    color: #003333;    
+}
+#loginform inout[type='submit']:active{
+    background-color: #008822;
+    color: #fff;
+}
+#loginform input[type='checkbox']{
+    width: 10%;
+}
+#gender{
+    margin: .5em auto;
+    padding: .5em;
+    width: 98%;
+}
+ footer {
+            background-color: #000000;
+            padding: 15px;
+            text-align: center;
+            font-size: 14px;
+            color: #444;
+        }
